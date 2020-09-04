@@ -1,0 +1,90 @@
+
+body {
+	background: #69500a 
+}
+
+.Logo{
+	background: #bb9310;  
+	font-family: arial;
+	color: white;
+	width : 80%;
+	padding: 30px;
+	margin-left: 10%;
+	text-align: center;
+}
+
+.but{
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+}
+.but:hover{
+	text-decoration: underline;
+}
+.board{
+	width: 360px;
+	height: 200px;
+	background: #FFFF00;
+	margin-top: 190px;
+	margin-left: 290px;
+	outline: 4px solid rgba(170, 133, 29, 0.822);
+}
+
+.board:hover{
+	animation: ani 5s;
+	-webkit-animation: ani 5s;
+	-moz-animation: ani 5s;
+}
+
+@keyframes ani
+{
+	0%{background: rgb(231, 210, 150)}
+	20%{background: rgb(114, 85, 22)}
+	40%{background: rgb(92, 67, 29)}
+	60%{background: rgb(66, 37, 37)}
+	80%{background: rgb(8, 8, 8)}
+	100%{background: #FFFF00}
+}
+
+header ul {
+	float: right;
+	width:100%;
+	padding: 30px;
+	background: rgba(170, 133, 29, 0.822);
+	font-family: sofia;
+	text-align: center;
+}
+
+header ul li:first-child{
+	margin-left: 230px;
+}
+
+header ul li{
+	display: inline-block;
+	margin-left: 70px;
+}
+
+
+hr{	/*hr en pointillé*/ 
+margin-left: 135px;
+margin-bottom: 50px;
+margin-top: 30px;
+border-top:4px dotted black;
+width: 80%;
+}
+
+
+h1{
+	font-family: sofia ;
+	text-align: center
+}
+
+h2{
+	margin-left: 8%;
+	font-family: sofia ;
+}
+
+p{
+	margin-left : 105px;
+}
+
